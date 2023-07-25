@@ -1,0 +1,147 @@
+/** APP CSS**/
+
+* {
+    margin:0;
+    padding: 0;
+   /* border: solid 1px rgb(175,175,175); */
+}
+header {
+    background: #165091;
+    width: 100%;
+    padding: 15px;
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container-app {
+    flex: 1;
+    padding:5px;
+    margin: 0px 30px;
+}
+.row-app {
+    flex-direction: column;
+}
+.card-fluxo {
+ border: 1px solid #ccc;
+ border-radius: 10px;
+ box-shadow: 2px 1px 0px rgb(0,0,0,0.3);
+}
+.col-app {
+    display: inline-flex;
+    flex-wrap: wrap;
+    min-width: 400px;
+    margin: 10px 10px;
+}
+.col-app > h4 {
+    padding: 0px 10px;
+}
+.text-center {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.header-fluxo {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    padding: 15px 0px;
+}
+.entrada {
+    
+    background: rgb(64, 206, 64);
+}
+.saidas {
+    background: rgb(228, 51, 81);
+}
+.caixa {
+    background: rgb(0, 51, 255);
+}
+.bottom-fluxo {
+    padding: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 22px;
+}
+.btn {
+    cursor: pointer;
+    margin:auto;
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+  
+}
+.btn-fluxo {
+    color: #fff;
+    background: rgb(0, 60, 255);
+    border:none;
+}
+/** modal */
+.modal-lancamento {
+  overflow: hidden;
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,0,0,0.5);
+
+}
+.modal-header {
+   background: #165091;
+   color:#fff;
+   padding: 10px 0px;
+}
+.modal-body {
+    background: #fff;
+    position: relative;
+    margin : 0 auto;
+    top:20%;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content:center;
+    text-align: center;
+    z-index: 1;
+}
+.col-group {
+    
+}
+.m-3 {
+    margin: 10px 10px;
+}
+.col-group input[type="text"]{
+    padding: 5px;
+    border-radius: 5px;
+}
+.col-group input[type="radio"] {
+   margin-left: 8px;
+}
+.tipo-lancamento {
+    display: inline-flex;
+    width: 100px;
+    padding:5px;
+    margin : 0px 10px;
+    border: 1px solid #c1c1c1;
+}
+.mt-1 {
+    margin-top: 10px;
+}
+.mt-2 {
+    margin-top: 20px;
+}
+.table {
+    width: 100%;
+    z-index: 0;
+}
+.table th {
+    padding : 8px;
+    background: #000;
+    color : #fff;
+}
+.table tbody {}
+td {
+    padding: 20px 0px;
+    border-bottom: 1px solid #ccc;
+}
+.pos-right {
+ float: right;
+}

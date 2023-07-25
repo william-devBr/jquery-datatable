@@ -1,0 +1,13 @@
+{
+    "name": "william/caixa",
+    "description": "\"app fluxo de caixa",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files" : ["config.php"]
+    }
+}
